@@ -7,8 +7,8 @@ rm go.tar.gz
 OLDPATH="$PATH"
 PATH="$PATH:/usr/local/go/bin"
 
-go get -u -v github.com/NetchX/shadowsocks-multiuser
-cd ~/go/src/github.com/NetchX/shadowsocks-multiuser
+go get -u -v github.com/catding/shadowsocks-multiuser
+cd ~/go/src/github.com/catding/shadowsocks-multiuser
 
 go build -ldflags "-w -s"
 
