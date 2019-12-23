@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 cd /usr/local
-wget -O go.tar.gz https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz
+wget -O go.tar.gz https://dl.google.com/go/go1.13.5.linux-amd64.tar.gz
 tar -zxf go.tar.gz
 rm go.tar.gz
 
