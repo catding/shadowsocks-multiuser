@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/NetchX/shadowsocks-multiuser/socks"
+	"github.com/catding/shadowsocks-multiuser/socks"
 )
 
 const udpBufferSize = 64 * 1024
