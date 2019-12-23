@@ -4,8 +4,11 @@ wget -O go.tar.gz https://dl.google.com/go/go1.13.5.linux-amd64.tar.gz
 tar -zxf go.tar.gz
 rm go.tar.gz
 
+export GOROOT=/usr/local/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
 OLDPATH="$PATH"
-PATH="$PATH:/usr/local/go/bin"
+#PATH="$PATH:/usr/local/go/bin"
 
 go get -u -v github.com/catding/shadowsocks-multiuser
 cd ~/go/src/github.com/catding/shadowsocks-multiuser
