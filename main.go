@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/NetchX/shadowsocks-multiuser/core"
+	"github.com/catding/shadowsocks-multiuser/core"
 )
 
 var flags struct {
